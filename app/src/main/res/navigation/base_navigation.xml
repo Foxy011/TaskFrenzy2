@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/base_navigation"
+    app:startDestination="@id/checkFragment">
+
+    <fragment
+        android:id="@+id/tasksFragment"
+        android:name="com.example.taskfrenzy.ui.tasks.TasksFragment"
+        android:label="TasksFragment" />
+
+    <fragment
+        android:id="@+id/checkFragment"
+        android:name="com.example.taskfrenzy.ui.check.CheckFragment"
+        android:label="CheckFragment" />
+
+    <fragment
+        android:id="@+id/createTaskFragment"
+        android:name="com.example.taskfrenzy.ui.check.CreateTaskFragment"
+        android:label="CreateTaskFragment" />
+</navigation>
